@@ -1,4 +1,4 @@
-const Train = require("../models/train.model");
+const Train = require("../../models/train.model");
 
 const searchQuery = async (req, res) => {
   console.log("Api called")

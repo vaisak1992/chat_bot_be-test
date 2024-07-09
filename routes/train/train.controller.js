@@ -1,4 +1,4 @@
-const Train = require("../models/train.model");
+const Train = require("../../models/train.model");
 
 const train = async (req, res) => {
   try {

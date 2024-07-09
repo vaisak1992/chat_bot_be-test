@@ -35,8 +35,8 @@ app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 
 //routes------------------------------
 
-app.use("/train", require("./routes/train.route"));
-app.use("/query",require("./routes/query.route"))
+app.use("/train", require("./routes/train/train.route"));
+app.use("/query",require("./routes/query/query.route"))
 /* --------------------------------------- */
 
 app.listen(PORT, () => {
